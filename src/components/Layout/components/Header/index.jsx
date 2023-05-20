@@ -1,12 +1,12 @@
-import { AiOutlineMenu } from 'react-icons/ai';
+import Logo from '~/assets/images/logo.png';
 import { FaUserCircle } from 'react-icons/fa';
 
-const NavBar = () => {
+const Header = () => {
   return (
-    <nav className="flex items-center justify-between pb-4">
-      <ul className="">
-        <AiOutlineMenu size={'2rem'} className="cursor-pointer" />
-      </ul>
+    <nav className="flex items-center justify-between mx-4 max-h-14">
+      <div>
+        <img src={Logo} alt="Logo" />
+      </div>
       <div>
         <div className="text-2xl font-semibold p-3 ">BeVietNam</div>
       </div>
@@ -17,4 +17,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Header;
