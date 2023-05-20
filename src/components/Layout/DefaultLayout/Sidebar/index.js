@@ -1,5 +1,9 @@
 function Sidebar() {
-  return <h2>sidebar</h2>;
+  return (
+    <aside className="w-96">
+      <h2>Sidebar</h2>
+    </aside>
+  );
 }
 
 export default Sidebar;

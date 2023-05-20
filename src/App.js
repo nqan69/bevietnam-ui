@@ -34,17 +34,6 @@ function App() {
         </Routes>
       </div>
     </Router>
-
-    // <div className="overflow-y-auto overflow-x-hidden h-screen px-5 py-8 bg-white">
-    //   <NavBar />
-    //   <div className="max-w-lg">
-    //     <ImageSlider>
-    //       {slides.map((s) => {
-    //         <img src={s} />;
-    //       })}
-    //     </ImageSlider>
-    //   </div>
-    // </div>
   );
 }
 

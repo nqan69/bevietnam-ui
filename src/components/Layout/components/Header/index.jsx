@@ -6,8 +6,8 @@ import { CgSearch } from 'react-icons/cg';
 
 const Header = () => {
   return (
-    <nav className="flex items-center justify-between mt-3 mx-4 max-h-14">
-      <img className="object-scale-down h-14 w-14" src={Logo} alt="Logo" />
+    <header className="top-0 fixed py-2 flex items-center justify-between w-full bg-white">
+      <img className="ml-5 object-scale-down h-14 w-14" src={Logo} alt="Logo" />
 
       <div className="relative text-sm flex items-center text-gray-400 focus-within:text-gray-600 bottom-1.5 left-2 w-full max-w-md">
         <button>
@@ -15,7 +15,7 @@ const Header = () => {
         </button>
         <input
           placeholder="Tìm kiếm bài viết, ngày lễ, ..."
-          className="w-full pr-8 pl-12 py-2 font-semibold placeholder-gray-500 text-black
+          className="w-full mt-4 pr-8 pl-12 py-2 font-semibold placeholder-gray-500 text-black
                     rounded-2xl border-none ring-2 ring-gray-300 focus:ring-gray-500 focus:outline-none"
         />
         <button>
@@ -24,9 +24,9 @@ const Header = () => {
       </div>
 
       <div>
-        <FaUserCircle size={'2.25rem'} className="cursor-pointer" />
+        <FaUserCircle size={'2.25rem'} className="mr-5 cursor-pointer" />
       </div>
-    </nav>
+    </header>
   );
 };
 
